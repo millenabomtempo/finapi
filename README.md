@@ -1,26 +1,48 @@
-# FinApi - Financeia
+# FinApi - Financeira
 
----
+![Badge](https://img.shields.io/badge/since-2022-blue?style=flat-square)
+![Badge](https://img.shields.io/badge/status-finalizado-green?style=flat-square)
 
-### Requisitos
+## About
+API to manage finance.  
+API created at Rocketseat's Ignite course.
+## :pushpin: Table of contents
+- [Features](#memo-features)
+- [Technologies](#computer-technologies)
+- [How to run](#construction_worker-how-to-run)
 
-- [x] Deve ser possível criar umma conta
-- [x] Deve ser possível buscar o extrato bancário do cliente
-- [x] Deve ser possível realizar um depósito
-- [x] Deve ser possível realizar um saque
-- [x] Deve ser possível buscar o extrato bancário do cliente por data
-- [x] Deve ser possível atualizar dados da conta do cliente
-- [x] Deve ser possível obter dados da conta do cliente
-- [x] Deve ser possível deletar uma conta
-- [x] Deve ser possível retornar o balanço da conta
+## :memo: Features
 
----
+- [x] Create customer account
+- [x] Update customer account
+- [x] Get customer account
+- [x] Delete customer account
+- [x] Make deposits
+- [x] Make withdraws
+- [x] Get customer's bank statement
+- [x] Get customer's bank statement by date
+- [x] Get account balance
 
-### Regras de negócio
+## :computer: Technologies
 
-- [x] Não deve ser possível cadastrar uma conta com CPF já existente
-- [x] Não deve ser possível buscar extrato em uma conta não existente
-- [x] Não deve ser possível fazer depósito em uma conta não existente
-- [x] Não deve ser possível fazer saque em uma conta não existente
-- [x] Não deve ser possível fazer saque quando o saldo for insuficiente
-- [x] Não deve ser possível excluir uma conta não existente
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [NodeJS](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+
+## :computer: How to run
+
+```bash
+# Clone repository into your machine
+$ git clone https://github.com/millenabomtempo/finapi.git
+
+# Install dependencies
+$ yarn install or npm install
+
+# Run application
+$ yarn dev or npm run dev
+
+# The api will init at port:3333 - access http://localhost:3333
+
+```
+
+<p align="center"> Made with :heart: by <a href="https://github.com/millenabomtempo">Millena Bomtempo</a></p>
